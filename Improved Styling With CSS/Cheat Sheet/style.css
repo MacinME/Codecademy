@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Work_Sans";
+  src: url("./fonts/WorkSans-Regular.ttf") format("truetype"),
+    url("./fonts/WorkSans-Medium.ttf") format("truetype"),
+    url("./fonts/WorkSans-ExtraBold.ttf") format("truetype");
+}
+
+body {
+  font-family: "Work_Sans", sans-serif;
+  color: #1d1d1d;
+}
+
+.container {
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 30px 30px;
+  background-color: #f4f7ff;
+}
+
+header {
+  background-color: #f4f7ff;
+  height: 80px;
+  padding: 20px 0;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #777;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.thead {
+  font-size: 22px;
+  color: #f4f4f4;
+  background-color: #000;
+}
+
+.circle {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.low {
+  background-color: #e8c30a;
+}
+
+.medium {
+  background-color: #00ce41;
+}
+
+.high {
+  background-color: #f64d4d;
+}
+
+code {
+  color: #1d1d1d;
+}

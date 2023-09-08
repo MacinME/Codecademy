@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dev Cheat Sheet</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Indicator References -->
+      <h1>Simple Cheat Sheet</h1>
+      <header>
+        <ul>
+          <li>
+            <p>Low</p>
+            <span class="circle low"></span>
+          </li>
+          <li>
+            <p>Medium</p>
+            <span class="circle medium"></span>
+          </li>
+          <li>
+            <p>High</p>
+            <span class="circle high"></span>
+          </li>
+        </ul>
+      </header>
+      <!-- HTML Cheat Sheet -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4" class="thead html">HTML Bests Practicing</th>
+          </tr>
+          <tr>
+            <th>N.</th>
+            <th>Description</th>
+            <th>Example</th>
+            <th>Critical</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              Using semantic HTML can be very useful for user experience and
+              developers, it makes it easier to read and for SEO (Search Engine
+              Optimization)
+            </td>
+            <td>
+              Use as posible as you can <code> &lt;section&gt; </code> tag,
+              instead of <code> &lt;div&gt;, </code> or other types of tags
+              available.
+            </td>
+            <td><span class="circle medium"></span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              Add the specific code into your HTML document to instructs the
+              browser to use the last version of HTML
+            </td>
+            <td>
+              At the top of the HTML document aggregate the next line of code:
+              <code> &lt;!DOCTYPE html&gt; </code>
+            </td>
+            <td><span class="circle high"></span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              Indentation to HTML code it will be easier and understandable for
+              other developers who will interact with your code
+            </td>
+            <td>
+              You can use some very useful extension on vscode like:
+              <strong>Prettier</strong>
+            </td>
+            <td><span class="circle low"></span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- CSS Cheat Sheet -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4" class="thead css">CSS Bests Practicing</th>
+          </tr>
+          <tr>
+            <th>N.</th>
+            <th>Description</th>
+            <th>Example</th>
+            <th>Critical</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Use an External CSS stylesheet to style your project.</td>
+            <td>
+              You can create a <strong>style.css</strong> file within the
+              directory you are working on. Additionally, link the CSS file from
+              HTML document.
+            </td>
+            <td><span class="circle high"></span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              It's hardly recommended to reset agent-values or the default
+              styles that browsers apply.
+            </td>
+            <td>
+              One simple CSS rule could be reseting the margin and padding for
+              complex layouts:
+              <code> *{ margin: 0; padding: 0, box-sizing: border-box; } </code>
+            </td>
+            <td><span class="circle high"></span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              Use class or element selector as possible as you can, it will help
+              your code to override future declarations that might you set, this
+              is very helpful because we can easily make changes, avoiding the
+              !important keyword value, one tip can be useful when we are using
+              CSS frameworks, but don't use it frequently'
+            </td>
+            <td><code> .class-h1 {}, h1 { }, instead of #h1 {} </code></td>
+            <td><span class="circle medium"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
