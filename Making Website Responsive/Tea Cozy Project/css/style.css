@@ -1,0 +1,175 @@
+/* Universal Selector / Reseting values */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a:link {
+  color: seashell;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+header ul li {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  color: seashell;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Banner section */
+
+main {
+  margin-top: 69px;
+  background-image: url("../assets/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.main-text {
+  width: 1200px;
+  height: 100px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Teas Section */
+
+#teas-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#teas-section > h2,
+p {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.images {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px 30px;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img-title {
+  margin-top: 10px;
+}
+
+/* Location Section */
+#location {
+  margin-top: 100px;
+  background-image: url("../assets/img-locations-background.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#location > h2 {
+  text-align: center;
+}
+
+#location .location-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#location .location-card {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#location .location-card ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+#location .location-card > ul {
+  list-style: none;
+}
+
+/* Contact Section */
+
+#contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer Section */
+
+footer p {
+  text-align: start;
+  font-size: 18px;
+  margin-left: 20px;
+}
